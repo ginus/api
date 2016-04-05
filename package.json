@@ -1,8 +1,8 @@
 {
-  "name": "api",
+  "name": "api-client",
   "version": "1.0.0",
-  "description": "promise api warp lib, like request but simple",
-  "main": "index.js",
+  "description": "promise api client lib, like request but simple",
+  "main": "dist/index.js",
   "scripts": {
     "test": "mocha"
   },
@@ -23,8 +23,11 @@
   },
   "homepage": "https://github.com/ginus/api#readme",
   "devDependencies": {
+    "chai": "^3.5.0",
     "coffee-script": "^1.10.0",
     "gulp": "^3.9.1",
-    "mocha": "^2.4.5"
+    "gulp-coffee": "^2.3.1",
+    "gulp-coffeelint": "^0.6.0",
+    "gulp-uglify": "^1.5.3"
   }
 }
