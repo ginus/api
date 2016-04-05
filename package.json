@@ -1,5 +1,5 @@
 {
-  "name": "api-client",
+  "name": "promise-api-client",
   "version": "1.0.0",
   "description": "promise api client lib, like request but simple",
   "main": "dist/index.js",
@@ -13,6 +13,7 @@
   "keywords": [
     "promise",
     "api",
+    "client",
     "request",
     "sign"
   ],
