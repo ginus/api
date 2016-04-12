@@ -11,8 +11,11 @@ mergeOptions = require('./mergeOptions');
 requestBuilder = require('./requestBuilder');
 
 Api = (function() {
+  var request;
+
+  request = void 0;
+
   function Api(useHttps, host, base) {
-    var request;
     this.https = useHttps;
     request = requestBuilder(useHttps);
     this.options = {

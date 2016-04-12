@@ -5,6 +5,7 @@ querystring = require 'querystring'
 mergeOptions  = require './mergeOptions'
 requestBuilder = require './requestBuilder'
 class Api
+  request=undefined
   constructor: (useHttps,host,base) ->
     @https=useHttps
     request=requestBuilder useHttps
