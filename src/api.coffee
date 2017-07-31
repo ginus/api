@@ -41,6 +41,6 @@ class Api
       path:@baseUrl+path
       headers:headers
 
-    @request options,body
+    request options,body
 
 module.exports=Api

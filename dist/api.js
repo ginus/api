@@ -60,7 +60,7 @@ Api = (function() {
       path: this.baseUrl + path,
       headers: headers
     });
-    return this.request(options, body);
+    return request(options, body);
   };
 
   return Api;
